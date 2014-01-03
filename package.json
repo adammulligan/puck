@@ -12,6 +12,7 @@
   "dependencies": {
     "koa": "~0.2.0",
     "chai": "~1.8.1",
-    "supertest": "~0.8.2"
+    "supertest": "~0.8.2",
+    "koa-route": "~1.0.2"
   }
 }
