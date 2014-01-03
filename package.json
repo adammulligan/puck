@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node --harmony index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Adam Mulligan (@amulligan)",
-  "license": "BSD"
+  "license": "BSD",
+  "dependencies": {
+    "koa": "~0.2.0"
+  }
 }
