@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node --harmony index.js",
-    "test": "NODE_ENV=test mocha test/**/*.coffee"
+    "test": "NODE_ENV=test mocha --harmony test/**/*.coffee"
   },
   "author": "Adam Mulligan (@amulligan)",
   "license": "BSD",
   "dependencies": {
     "koa": "~0.2.0",
-    "chai": "~1.8.1"
+    "chai": "~1.8.1",
+    "supertest": "~0.8.2"
   }
 }
